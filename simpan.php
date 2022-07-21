@@ -15,7 +15,7 @@ include("form.html");
 	fputs($fp, "$nim|$nama|$kota|$nohp|$prodi\n");
 	fclose($fp);
     echo "Terima Kasih Atas Partisipasi Anda Mengisi Form<br>";
-    echo "<a href=form.html> Isi Buku form </a><br>"; 
+    echo "<a href=lihat.php> Lihat Daftar </a><br>"; 
 include("ftr.html");
 ?>
 
