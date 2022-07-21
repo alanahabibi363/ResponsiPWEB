@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pendaftaran</title>
+	<style>
+		.content{
+			overflow: auto;
+		}
+		.content div {
+			padding: 10px;
+		}
+		.content a {
+			color: darkblue;
+		}
+		.div1 {
+			float: left;
+			width: 300px;
+			height: 300px;
+			border: 2px solid black;
+			background: #DDDDDD;
+		}
+		.div2 {
+			float: left;
+			width: 1220px;
+			height: 300px;
+			border: 2px solid black;
+		}
+		.div3 {
+			width: 1545px;
+			height: 60px;
+			border: 2px solid black;
+		}
+		.div4 {
+			float: left;
+			width: 1565px;
+			height: 60px;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="div3">
+			<h1 style="text-align: center; margin-top: 10px;">Atas</h1>
+		</div>
+		<div class="div1">
+			<p style="text-align: center;">Menu</p>
+			<ul>
+				<li>Biodata</li>
+				<li>Pendaftaran</li>
+			</ul>
+		</div>
+		<div class="div2">
+			<h1>FORMULIR PENDAFTARAN SISWA BARU</h1>
+			<form action="action" method="POST">
+				<table>
+					<tr>
+						<td>Nama</td>
+						<td>:</td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td>Alamat</td>
+						<td>:</td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td>Telp</td>
+						<td>:</td>
+						<td><input type="tel"></td>
+					</tr>
+					<tr>
+						<td>Jenis Kelamin</td>
+						<td>:</td>
+						<td><input type="radio" name="jenis_kelamin" value="Laki - Laki">Laki - Laki<input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</td>
+					</tr>
+					<tr>
+						<td>Agama</td>
+						<td>:</td>
+						<td><select name="agama">
+							<option value=""></option>
+							<option value="1">Islam</option>
+							<option value="2">Kristen</option>
+							<option value="3">Katolik</option>
+							<option value="4">Hindu</option>
+							<option value="5">Buddha</option>
+							<option value="6">Khonghucu</option>
+						</td>
+					</tr>
+					<tr>
+						<td>Prestasi</td>
+						<td>:</td>
+						<td><textarea name="prestasi1" cols="19" rows="4"></textarea></td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+
+						<td><input class="button button1" type="submit" name="submit" value="Simpan"><input class="button button1" type="reset" name="reset" value="Batal"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<div class="div4">
+		<h1 style="text-align: center; margin-top: 8px;">Bawah</h1>
+	</div>
+</body>
+</html>
